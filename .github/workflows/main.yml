@@ -14,6 +14,7 @@ jobs:
        FLOW_API_KEY:  ${{secrets.CONVISO_API_KEY}}
        FLOW_PROJECT_CODE: ${{secrets.PROJECT_KEY}}
        FLOW_API_URL: ${{secrets.HOMOLOGA_URL}}
+       PASSWORD: "TESTEEE12356"
    steps:
    - uses: actions/checkout@v2
 
